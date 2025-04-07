@@ -1,0 +1,29 @@
+/* Reuse color */
+.text-custom-blue {
+  color: #009688;
+}
+
+.height-custom-bar {
+  height: 21px !important;
+}
+
+.round-custom-bar {
+  border-radius: 90px !important;
+}
+
+.round-custom-theme {
+  border-radius: 90px 0 0 90px !important;
+}
+
+.bg-custom-color {
+  background-color: #009688 !important;
+}
+
+.bg-dark .card {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.bg-dark .card hr {
+  border-color: #444;
+}
