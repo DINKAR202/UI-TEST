@@ -6,8 +6,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/vite-react-app.git
-cd vite-react-app
+git clone https://github.com/DINKAR202/UI-TEST.git
+cd UI-TEST
 
 npm install
 
