@@ -85,8 +85,9 @@ const Resume = () => {
             </div>
           </div>
 
-          {/* Right Column - Work and Education */}
+          {/* Right Column Work and Education */}
           <div className="col-lg-8 col-md-7 col-sm-12">
+
             {/* Work Experience Section */}
             <div className="card shadow-sm mb-4 p-4">
               <h4 className="mb-3">
