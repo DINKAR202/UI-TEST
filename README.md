@@ -4,7 +4,7 @@
 
 ## Live Preview
 
-🔗 [Live Site](https://ui-testing-beta.vercel.app)
+ [Live Site](https://ui-testing-beta.vercel.app)
 
  [GitHub Repository](https://github.com/DINKAR202/UI-TEST)
 
