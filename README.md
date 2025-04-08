@@ -12,7 +12,7 @@
 
 ## Getting Started
 
-Follow the steps below to run this project locally:
+Pls Follow the steps below to run this project locally:
 
 ###  Step 1: Clone the Repository
 
