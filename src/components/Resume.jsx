@@ -21,9 +21,9 @@ const Resume = () => {
           onClick={toggleTheme}
         >
           {darkTheme ? (
-            <i class="bi bi-sun-fill text-white"></i>
+            <i className="bi bi-sun-fill text-white"></i>
           ) : (
-            <i class="bi bi-moon-fill text-white"></i>
+            <i className="bi bi-moon-fill text-white"></i>
           )}
         </button>
       </div>
@@ -65,7 +65,7 @@ const Resume = () => {
                 <hr />
 
                 <h6 className="mb-2 fw-bold">
-                  <i class="bi bi-asterisk text-custom-blue me-3"></i>Skills
+                  <i className="bi bi-asterisk text-custom-blue me-3"></i>Skills
                 </h6>
                 {renderProgress("Adobe Photoshop", 90)}
                 {renderProgress("Photography", 80)}
@@ -75,7 +75,7 @@ const Resume = () => {
                 <hr />
 
                 <h6 className="mb-2 fw-bold">
-                  <i class="bi bi-globe-europe-africa text-custom-blue me-3"></i>
+                  <i className="bi bi-globe-europe-africa text-custom-blue me-3"></i>
                   Languages
                 </h6>
                 {renderProgressWithoutPercentage("English", 100)}
@@ -87,18 +87,31 @@ const Resume = () => {
 
           {/* Right Column Work and Education */}
           <div className="col-lg-8 col-md-7 col-sm-12">
-
             {/* Work Experience Section */}
             <div className="card shadow-sm mb-4 p-4">
               <h4 className="mb-3">
                 <i class="bi bi-suitcase-lg-fill text-custom-blue me-3"></i>{" "}
                 Work Experience
               </h4>
-              {renderJob(
-                "Front End Developer / w3schools.com",
-                "Jan 2015 - Current",
-                "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic."
-              )}
+
+              <div className="mb-4">
+                <h6 className="fw-bold mb-1">
+                  Front End Developer / w3schools.com
+                </h6>
+                <small className="d-block fw-semibold mb-1 text-custom-blue">
+                  <i className="bi bi-calendar-week text-custom-blue me-2"></i> Jan
+                  2015 -{" "}
+                  <span className="bg-custom-color text-white px-2 py-0 rounded rounded-1">
+                    Current
+                  </span>
+                </small>
+                <p className="mb-0 fw-semibold">
+                  Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
+                  in deserunt aspernatur est reprehenderit sunt hic.
+                </p>
+                <hr />
+              </div>
+
               {renderJob(
                 "Web Developer / something.com",
                 "Mar 2012 - Dec 2014",
@@ -114,7 +127,7 @@ const Resume = () => {
             {/* Education Section */}
             <div className="card shadow-sm p-4">
               <h4 className="mb-3">
-                <i class="bi bi-mortarboard-fill text-custom-blue me-3"></i>{" "}
+                <i className="bi bi-mortarboard-fill text-custom-blue me-3"></i>{" "}
                 Education
               </h4>
               {renderEducation(

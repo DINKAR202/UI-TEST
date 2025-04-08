@@ -4,7 +4,7 @@ export const renderJob = (title, dateRange, description) => (
   <div className="mb-4">
     <h6 className="fw-bold mb-1">{title}</h6>
     <small className="d-block fw-semibold mb-1 text-custom-blue">
-      <i class="bi bi-calendar-week text-custom-blue me-2"></i> {dateRange}
+      <i className="bi bi-calendar-week text-custom-blue me-2"></i> {dateRange}
     </small>
     <p className="mb-0 fw-semibold">{description}</p>
     <hr />
@@ -17,7 +17,7 @@ export const renderEducation = (school, years, description) => (
   <div className="mb-4">
     <h6 className="fw-bold mb-1">{school}</h6>
     <small className="fw-semibold d-block mb-1 text-custom-blue">
-      <i class="bi bi-calendar-week text-custom-blue me-2"></i> {years}
+      <i className="bi bi-calendar-week text-custom-blue me-2"></i> {years}
     </small>
     <p className="mb-0 fw-semibold">{description}</p>
     <hr />
